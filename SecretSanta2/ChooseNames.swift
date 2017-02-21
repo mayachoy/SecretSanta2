@@ -14,6 +14,7 @@ class ChooseNames: UIViewController {
     var userInput2: String!
     var userInput3: String!
     var userInput4: String!
+    
 
     
     @IBOutlet weak var displayName: UILabel!
