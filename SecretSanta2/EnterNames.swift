@@ -15,7 +15,7 @@ class EnterNames: UIViewController {
     @IBOutlet weak var userInput4: UITextField!
 
     @IBAction func Button(_ sender: Any) {
-        performSegue(withIdentifier: "Button", sender: nil)
+      
         
             
         
@@ -27,10 +27,10 @@ class EnterNames: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "Button"{
             let newVC = segue.destination as! ChooseNames
-            newVC.userInput1 = userInput1.text
-            newVC.userInput2 = userInput2.text
-            newVC.userInput3 = userInput3.text
-            newVC.userInput4 = userInput4.text
+            newVC.userInput1 = userInput1.text!
+            newVC.userInput2 = userInput2.text!
+            newVC.userInput3 = userInput3.text!
+            newVC.userInput4 = userInput4.text!
     }
 }
 

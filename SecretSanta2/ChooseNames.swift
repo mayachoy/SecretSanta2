@@ -10,21 +10,32 @@ import UIKit
 
 
 class ChooseNames: UIViewController {
-    var userInput1: String!
-    var userInput2: String!
-    var userInput3: String!
-    var userInput4: String!
-    
+    var userInput1: String = ""
+    var userInput2: String = ""
+    var userInput3: String = ""
+    var userInput4: String = ""
+    var Names: [String] = ["1", "2","3","4"]
+   
 
     
     @IBOutlet weak var displayName: UILabel!
- 
+
+    
     @IBAction func PickName(_ sender: AnyObject) {
-        var Names = [userInput1, userInput2,userInput3, userInput4]
-        let secretSantaName = Names[Int(arc4random_uniform(UInt32(Names.count)))]
+        if Names.count == 0{
+            displayName.text = "No more names left! :( "
+        } else{
+        let randomIndex = Int(arc4random()) % Names.count
+        //let secretSantaName = Names[Int(arc4random_uniform(UInt32(Names.count)))]
+        let secretSantaName = Names[randomIndex]
         displayName.text = "You are secret santa for \(secretSantaName) !"
+        Names.remove(at: randomIndex)
+        }
    }
 
+    @IBAction func NextName(_ sender: AnyObject) {
+        displayName.text = ""
+    }
     
     
     override func viewDidLoad() {
