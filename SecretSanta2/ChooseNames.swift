@@ -10,26 +10,28 @@ import UIKit
 
 
 class ChooseNames: UIViewController {
-    var userInput1: String = ""
-    var userInput2: String = ""
-    var userInput3: String = ""
-    var userInput4: String = ""
-    var Names: [String] = ["1", "2","3","4"]
-   
+    var namesList = [String]()
+  
+    
+    
+
+        
 
     
     @IBOutlet weak var displayName: UILabel!
 
     
     @IBAction func PickName(_ sender: AnyObject) {
-        if Names.count == 0{
+
+        if namesList.count == 0{
             displayName.text = "No more names left! :( "
         } else{
-        let randomIndex = Int(arc4random()) % Names.count
+        let randomIndex = Int(arc4random()) % namesList.count
         //let secretSantaName = Names[Int(arc4random_uniform(UInt32(Names.count)))]
-        let secretSantaName = Names[randomIndex]
+        let secretSantaName = namesList[randomIndex]
         displayName.text = "You are secret santa for \(secretSantaName) !"
-        Names.remove(at: randomIndex)
+            
+        namesList.remove(at: randomIndex)
         }
    }
 
@@ -47,7 +49,7 @@ class ChooseNames: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
     

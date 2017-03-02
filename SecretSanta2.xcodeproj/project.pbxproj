@@ -15,6 +15,9 @@
 		2B26AAFA1E4CF9290053CA81 /* christmas stocking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B26AAF91E4CF9290053CA81 /* christmas stocking.jpg */; };
 		2B5A695C1E4E495700B99643 /* ChooseNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A695B1E4E495700B99643 /* ChooseNames.swift */; };
 		2B5D61DD1E524771008BC387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5D61DB1E524771008BC387 /* Main.storyboard */; };
+		2BCF3DB11E67556A00660F10 /* holly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BCF3DB01E67556A00660F10 /* holly.jpg */; };
+		2BCF3DB31E6756AA00660F10 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BCF3DB21E6756AA00660F10 /* screen1.png */; };
+		2BCF3DB51E6756B600660F10 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BCF3DB41E6756B600660F10 /* screen2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		2B26AAF91E4CF9290053CA81 /* christmas stocking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "christmas stocking.jpg"; sourceTree = "<group>"; };
 		2B5A695B1E4E495700B99643 /* ChooseNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseNames.swift; sourceTree = "<group>"; };
 		2B5D61DC1E524771008BC387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BCF3DB01E67556A00660F10 /* holly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = holly.jpg; sourceTree = "<group>"; };
+		2BCF3DB21E6756AA00660F10 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		2BCF3DB41E6756B600660F10 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +71,10 @@
 				2B26AAEE1E4CF89A0053CA81 /* Assets.xcassets */,
 				2B5D61DB1E524771008BC387 /* Main.storyboard */,
 				2B26AAF91E4CF9290053CA81 /* christmas stocking.jpg */,
+				2BCF3DB01E67556A00660F10 /* holly.jpg */,
 				2B26AAF01E4CF89A0053CA81 /* LaunchScreen.storyboard */,
+				2BCF3DB21E6756AA00660F10 /* screen1.png */,
+				2BCF3DB41E6756B600660F10 /* screen2.png */,
 				2B26AAF31E4CF89A0053CA81 /* Info.plist */,
 				2B26AAEB1E4CF89A0053CA81 /* SecretSanta2.xcdatamodeld */,
 			);
@@ -142,7 +151,10 @@
 			files = (
 				2B26AAF21E4CF89A0053CA81 /* LaunchScreen.storyboard in Resources */,
 				2B26AAFA1E4CF9290053CA81 /* christmas stocking.jpg in Resources */,
+				2BCF3DB31E6756AA00660F10 /* screen1.png in Resources */,
 				2B26AAEF1E4CF89A0053CA81 /* Assets.xcassets in Resources */,
+				2BCF3DB51E6756B600660F10 /* screen2.png in Resources */,
+				2BCF3DB11E67556A00660F10 /* holly.jpg in Resources */,
 				2B5D61DD1E524771008BC387 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
