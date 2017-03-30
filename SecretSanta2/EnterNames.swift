@@ -13,14 +13,14 @@ class EnterNames: UIViewController {
     @IBOutlet weak var userInput2: UITextField!
     @IBOutlet weak var userInput3: UITextField!
     @IBOutlet weak var userInput4: UITextField!
+    @IBOutlet weak var userInput5: UITextField!
+    @IBOutlet weak var userInput6: UITextField!
     
     var namesToPass = [String]()
+    
+    
 
     @IBAction func Button(_ sender: Any) {
-        
-      
-        
-            
         
     }
     
@@ -31,6 +31,17 @@ class EnterNames: UIViewController {
         namesToPass = []
     }
     
+    @IBAction func clearNames(_ sender: AnyObject) {
+        userInput1.text = nil
+        userInput2.text = nil
+        userInput3.text = nil
+        userInput4.text = nil
+        userInput5.text = nil
+        userInput6.text = nil
+
+        
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "Button"{
             let newVC = segue.destination as! ChooseNames
@@ -38,6 +49,8 @@ class EnterNames: UIViewController {
             namesToPass.append(userInput2.text!)
             namesToPass.append(userInput3.text!)
             namesToPass.append(userInput4.text!)
+            namesToPass.append(userInput5.text!)
+            namesToPass.append(userInput6.text!)
             newVC.namesList = namesToPass
     }
 }
