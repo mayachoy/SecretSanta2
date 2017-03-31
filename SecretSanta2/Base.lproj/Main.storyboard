@@ -209,7 +209,7 @@
                                 <frame key="frameInset" minX="16" minY="92" width="152" height="247"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen1.png" translatesAutoresizingMaskIntoConstraints="NO" id="IdQ-tP-630">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="choosenamesscreen" translatesAutoresizingMaskIntoConstraints="NO" id="IdQ-tP-630">
                                 <frame key="frameInset" minX="211" minY="374" width="148" height="256"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -248,8 +248,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Secret Santa!   Enter up to 6 names and then hit the green button to get started!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="di6-9x-hly">
-                                <frame key="frameInset" minX="189" minY="105" width="144" height="207"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Secret Santa! Enter up to 6 names and then hit the green button to get started!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="di6-9x-hly">
+                                <frame key="frameInset" minX="190" minY="112" width="157" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
@@ -298,7 +298,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57I-DT-j3J">
-                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="24"/>
                                 <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
@@ -391,9 +391,9 @@
     </scenes>
     <resources>
         <image name="Enternamesscreen.png" width="282" height="454"/>
+        <image name="choosenamesscreen" width="218" height="327"/>
         <image name="christmas stocking.jpg" width="580" height="880"/>
         <image name="holly.jpg" width="610" height="695"/>
         <image name="santa-hat-clip-art-at-clker-com-vector-clip-art-online-royalty-free-wstDVx-clipart.jpg" width="444" height="596"/>
-        <image name="screen1.png" width="218" height="327"/>
     </resources>
 </document>
