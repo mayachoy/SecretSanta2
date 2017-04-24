@@ -18,6 +18,10 @@ class EnterNames: UIViewController {
     
     var namesToPass = [String]()
     
+    @IBAction func userTappedBackground(sender: AnyObject) {
+        view.endEditing(true)
+    }
+    
     
 
     @IBAction func Button(_ sender: Any) {
